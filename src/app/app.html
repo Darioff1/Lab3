@@ -1,6 +1,10 @@
-<p>this is my app.html file</p>
-<p>Name: {{name}} - Age {{age}}</p>
-<app-acomponent></app-acomponent>
+<img (dblclick)="onDoubleClick()" src="https://upload.wikimedia.org/wikipedia/commons/3/34/Red_star.svg"height="42" width="42">
+
 <br>
+<h2 [hidden]="hide">look at the Star </h2>
+
+<button (click)="onButtonClick()">Press me!</button>
+<p>The number of times the button has been pressed is {{count}}.</p>
+
 <hr>
-<app-bcomponent></app-bcomponent>
+<app-list-component></app-list-component>
