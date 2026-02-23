@@ -2,6 +2,7 @@
 
 
 <ul>
+  <!-- Loops through the presidents array and displays each name -->
     <li *ngFor="let president of presidents">
         {{president}}
     </li>
@@ -15,6 +16,6 @@
 
 <ul>
     @for(president of mypresidents; track president.name){
-        <li>{{president.name}},{{president.term}}</li>
+        <li>{{president.name}},{{president.term}}</li> <!-- shows president name And term >
     }
 </ul>
