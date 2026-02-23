@@ -4,11 +4,11 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-list-component',
   imports: [CommonModule],
-  templateUrl: './list-component.html',
+  templateUrl: './list-component.html',<!-- Links the HTML template file>
   styleUrl: './list-component.css',
 })
 export class ListComponent {
-  presidents:string[]=["Higgins", "McAleese", "Robinson", "Hillery"];
+  presidents:string[]=["Higgins", "McAleese", "Robinson", "Hillery"]; <!-- Array of president objects including name and term in office>
   mypresidents: any[] =
 [{name: "Higgins", term:"2011-"},
 {name: "McAleese", term:"1997-2011"},
